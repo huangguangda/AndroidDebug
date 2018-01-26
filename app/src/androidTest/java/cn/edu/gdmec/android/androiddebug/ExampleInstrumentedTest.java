@@ -23,4 +23,12 @@ public class ExampleInstrumentedTest {
 
         assertEquals("cn.edu.gdmec.android.androiddebug", appContext.getPackageName());
     }
+
+    public void test() throws Exception{
+        final int expected = 1;
+        final int reality = 1;
+        //断言
+        assertEquals ( expected, reality );
+    }
+
 }
